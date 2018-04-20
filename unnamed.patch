@@ -1,0 +1,60 @@
+Index: protected/views/site/login.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/views/site/login.php	(revision 2e36d833769894630c1693baac48b5337261d61f)
++++ protected/views/site/login.php	(date 1524248202359)
+@@ -28,7 +28,7 @@
+                     <div class="login-form">
+ 
+                         <?php echo $form->textField($model, 'username', array(
+-                            'maxlength' => 10,
++                            'maxlength' => 60,
+                             'class' => 'form-control',
+                             'placeholder' => 'Usuario',
+                         )); ?>
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 2e36d833769894630c1693baac48b5337261d61f)
++++ .gitignore	(date 1524248804541)
+@@ -1,28 +1,0 @@
+-# Created by .ignore support plugin (hsz.mobi)
+-### Yii template
+-assets/*
+-!assets/.gitignore
+-protected/runtime/*
+-!protected/runtime/.gitignore
+-protected/data/*.db
+-themes/classic/views/
+-
+-protected/runtime/session-1.1.17.db
+-.idea/.name
+-.idea/dataSources.ids
+-.idea/dataSources.local.xml
+-.idea/dataSources.xml
+-.idea/encodings.xml
+-.idea/panaderia.iml
+-.idea/workspace.xml
+-protected/commands/
+-protected/data/
+-protected/messages/
+-protected/migrations/
+-protected/tests/fixtures/
+-protected/tests/report/
+-protected/tests/unit/
+-protected/vendor/
+-themes/classic/
+-assets/
+-themes/
+Index: error_log
+===================================================================
+--- error_log	(revision 2e36d833769894630c1693baac48b5337261d61f)
++++ error_log	(revision 2e36d833769894630c1693baac48b5337261d61f)
+@@ -1,3 +0,0 @@
+-[19-Aug-2016 00:05:15 America/Chicago] PHP Fatal error:  Call to a member function search() on a non-object in /home1/mgazzo/public_html/Alemana/protected/views/fACGUIAREMIS/index.php on line 55
+-[19-Aug-2016 00:12:38 America/Chicago] PHP Fatal error:  Call to undefined function numtoletras() in /home1/mgazzo/public_html/Alemana/protected/views/Reporte/_ReporteGuiaContinuo.php on line 93
+-[20-Aug-2016 12:58:11 America/Chicago] PHP Fatal error:  Call to a member function search() on a non-object in /home1/mgazzo/public_html/Alemana/protected/views/fACGUIAREMIS/index.php on line 55

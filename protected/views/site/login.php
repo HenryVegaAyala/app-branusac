@@ -28,7 +28,7 @@
                     <div class="login-form">
 
                         <?php echo $form->textField($model, 'username', array(
-                            'maxlength' => 10,
+                            'maxlength' => 60,
                             'class' => 'form-control',
                             'placeholder' => 'Usuario',
                         )); ?>

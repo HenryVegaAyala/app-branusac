@@ -1,0 +1,1361 @@
+2016/11/02 20:38:23 [error] [php] Undefined index: : (C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:812)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): ReporteController->renderInternal()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#3 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php (812)
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Worksheet.php (1348)
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (90)
+2016/11/02 20:39:18 [error] [exception.PHPExcel_Exception] exception 'PHPExcel_Exception' with message 'Column string index can not be longer than 3 characters' in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:816
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Worksheet.php(1348): PHPExcel_Cell::columnIndexFromString('A1:H1')
+#1 C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php(90): PHPExcel_Worksheet->getColumnDimension('A1:H1')
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): CController->renderPartial('/Reporte/_Factu...')
+#6 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): CController->run('Factura')
+#16 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController('reporte/Factura')
+#17 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\AlemanaP\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+HTTP_REFERER=http://localhost/AlemanaP/factura/index.php
+---
+2016/11/02 22:25:54 [error] [php] Undefined index: : (C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:812)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): ReporteController->renderInternal()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#3 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php (812)
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Worksheet.php (1348)
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (41)
+2016/11/02 22:28:06 [error] [php] Undefined index: : (C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:812)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): ReporteController->renderInternal()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#3 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php (812)
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Worksheet.php (1348)
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (41)
+2016/11/02 22:28:30 [error] [php] Undefined index: : (C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:812)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): ReporteController->renderInternal()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#3 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php (812)
+in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Worksheet.php (1348)
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (41)
+2016/11/03 21:45:50 [error] [php] Undefined index:  (C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php:58)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#1 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#3 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (58)
+in C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php (28)
+in C:\xampp\htdocs\AlemanaP\index.php (13)
+2016/11/03 21:46:22 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php:58)
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): ReporteController->renderFile()
+#1 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): ReporteController->renderPartial()
+#2 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#3 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): ReporteController->runAction()
+#5 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): ReporteController->filterAccessControl()
+#8 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): ReporteController->runActionWithFilters()
+#11 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): ReporteController->run()
+#12 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\AlemanaP\index.php(13): CWebApplication->run()
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+in C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php (58)
+in C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php (28)
+in C:\xampp\htdocs\AlemanaP\index.php (13)
+2016/11/03 22:51:14 [error] [exception.PHPExcel_Exception] exception 'PHPExcel_Exception' with message 'Invalid cell coordinate A'2'' in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:590
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Style.php(236): PHPExcel_Cell::coordinateFromString('A'2'')
+#1 C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php(87): PHPExcel_Style->applyFromArray(Array)
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): CController->renderPartial('/Reporte/_Factu...')
+#6 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): CController->run('Factura')
+#16 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController('reporte/Factura')
+#17 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\AlemanaP\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+HTTP_REFERER=http://localhost/AlemanaP/factura/index.php
+---
+2016/11/03 22:51:27 [error] [exception.PHPExcel_Exception] exception 'PHPExcel_Exception' with message 'Invalid cell coordinate  I2' in C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Cell.php:590
+Stack trace:
+#0 C:\xampp\htdocs\AlemanaP\protected\extensions\PHPExcel\vendor\PHPExcel\Style.php(237): PHPExcel_Cell::coordinateFromString(' I2')
+#1 C:\xampp\htdocs\AlemanaP\protected\views\Reporte\_Factura.php(87): PHPExcel_Style->applyFromArray(Array)
+#2 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AlemanaP\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\AlemanaP\protected\controllers\ReporteController.php(28): CController->renderPartial('/Reporte/_Factu...')
+#6 C:\xampp\htdocs\AlemanaP\framework\web\actions\CInlineAction.php(49): ReporteController->actionFactura()
+#7 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\AlemanaP\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\AlemanaP\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\AlemanaP\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(282): CController->run('Factura')
+#16 C:\xampp\htdocs\AlemanaP\framework\web\CWebApplication.php(141): CWebApplication->runController('reporte/Factura')
+#17 C:\xampp\htdocs\AlemanaP\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\AlemanaP\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/AlemanaP/reporte/Factura.php
+HTTP_REFERER=http://localhost/AlemanaP/factura/index.php
+---
+2016/11/14 00:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/14 04:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/22 23:38:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/22 23:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/23 23:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/23 23:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/27 00:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/11/29 23:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/12/10 21:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/12/10 21:47:58 [error] [php] Undefined variable: row (C:\wamp\www\Alemana\protected\controllers\OcController.php:270)
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(133): OcController->runAction()
+#1 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\Alemana\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): OcController->filterAccessControl()
+#4 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\Alemana\framework\web\CController.php(265): OcController->runActionWithFilters()
+#7 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): OcController->run()
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp\www\Alemana\index.php(13): CWebApplication->run()
+REQUEST_URI=/Alemana/oc/ValorTienda.php
+in C:\wamp\www\Alemana\protected\controllers\OcController.php (270)
+in C:\wamp\www\Alemana\index.php (13)
+2016/12/12 15:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2016/12/23 16:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/01/06 23:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/01/07 06:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/01/09 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/01/12 21:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/01/13 20:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/02/05 17:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/02/05 20:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/02/13 05:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/02/13 18:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/02/13 22:16:12 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. La sentencia SQL ejecutada fue: Select MC.NRO_RUC,MC.DES_CLIE,MT.DIR_TIEN from mae_clien MC, mae_tiend MT where  MC.COD_CLIE = MT.COD_CLIE and MT.COD_ESTA = 1 and MC.COD_ESTA = 1 and MC.COD_CLIE = 001 and MT.COD_TIEN = ;.
+in C:\wamp\www\Alemana\protected\controllers\FacturaController.php (222)
+in C:\wamp\www\Alemana\index.php (13)
+2017/02/13 22:16:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: Select MC.NRO_RUC,MC.DES_CLIE,MT.DIR_TIEN from mae_clien MC, mae_tiend MT where  MC.COD_CLIE = MT.COD_CLIE and MT.COD_ESTA = 1 and MC.COD_ESTA = 1 and MC.COD_CLIE = 001 and MT.COD_TIEN = ;' in C:\wamp\www\Alemana\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Alemana\protected\controllers\FacturaController.php(222): CDbCommand->query()
+#2 C:\wamp\www\Alemana\framework\web\actions\CInlineAction.php(49): FacturaController->actionValorTienda()
+#3 C:\wamp\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): CController->run('ValorTienda')
+#12 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('factura/ValorTi...')
+#13 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Alemana/factura/ValorTienda.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/factura/create.php
+---
+2017/03/04 15:40:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Inicio de sesión necesario' in C:\wamp\www\Alemana\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#2 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 C:\wamp\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): CController->run('ajax')
+#9 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/ajax')
+#10 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Alemana/oc/ajax.php?nombre_producto=jkkjjj&type=produc_tiend&clie=003&tienda=003&row_num=3
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/oc/create.php
+---
+2017/03/11 02:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/20 17:46:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/20 18:02:47 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp\www\Alemana\protected\controllers\FacturaController.php (81)
+in C:\wamp\www\Alemana\index.php (13)
+2017/03/20 18:02:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\Alemana\protected\controllers\FacturaController.php(81): CActiveRecord->save()
+#3 C:\wamp\www\Alemana\framework\web\actions\CInlineAction.php(49): FacturaController->actionCreate()
+#4 C:\wamp\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('factura/create')
+#14 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/factura/create.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/factura/create.php
+---
+2017/03/25 16:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/26 14:56:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Inicio de sesión necesario' in C:\wamp\www\Alemana\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#2 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 C:\wamp\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): CController->run('ClienteByTienda')
+#9 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/ClienteByTie...')
+#10 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Alemana/oc/ClienteByTienda.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/oc/create.php
+---
+2017/03/26 14:56:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Inicio de sesión necesario' in C:\wamp\www\Alemana\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 C:\wamp\www\Alemana\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#2 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 C:\wamp\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): CController->run('ClienteByTienda')
+#9 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/ClienteByTie...')
+#10 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Alemana/oc/ClienteByTienda.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/oc/create.php
+---
+2017/03/26 14:57:08 [error] [php] Undefined index: OC (C:\wamp\www\Alemana\protected\controllers\OcController.php:248)
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(133): OcController->runAction()
+#1 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\Alemana\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): OcController->filterAccessControl()
+#4 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\Alemana\framework\web\CController.php(265): OcController->runActionWithFilters()
+#7 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): OcController->run()
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp\www\Alemana\index.php(13): CWebApplication->run()
+REQUEST_URI=/Alemana/oc/ClienteByTienda.php
+in C:\wamp\www\Alemana\protected\controllers\OcController.php (248)
+in C:\wamp\www\Alemana\index.php (13)
+2017/03/26 14:57:09 [error] [php] Undefined index: OC (C:\wamp\www\Alemana\protected\controllers\OcController.php:248)
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(133): OcController->runAction()
+#1 C:\wamp\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\Alemana\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\Alemana\framework\web\filters\CInlineFilter.php(58): OcController->filterAccessControl()
+#4 C:\wamp\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\Alemana\framework\web\CController.php(265): OcController->runActionWithFilters()
+#7 C:\wamp\www\Alemana\framework\web\CWebApplication.php(282): OcController->run()
+#8 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp\www\Alemana\index.php(13): CWebApplication->run()
+REQUEST_URI=/Alemana/oc/ClienteByTienda.php
+in C:\wamp\www\Alemana\protected\controllers\OcController.php (248)
+in C:\wamp\www\Alemana\index.php (13)
+2017/03/27 04:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/28 15:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/28 16:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/28 17:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/28 17:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/28 21:37:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/29 06:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/29 07:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/29 14:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/29 20:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/29 23:36:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/30 15:36:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/31 16:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/31 18:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/03/31 23:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/01 03:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/01 04:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/02 18:11:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 01:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 04:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 04:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 17:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 18:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 20:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/03 20:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/04 02:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/04 14:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/04 19:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/05 17:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/05 17:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "alsina"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('alsina')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/alsina
+---
+2017/04/05 20:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/05 23:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/06 04:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/07 00:12:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/07 16:52:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/08 21:14:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/08 22:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/08 22:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/10 19:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/11 15:54:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/11 22:13:37 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp64\www\Alemana\protected\controllers\FacturaController.php (81)
+in C:\wamp64\www\Alemana\index.php (13)
+2017/04/11 22:13:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp64\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp64\www\Alemana\protected\controllers\FacturaController.php(81): CActiveRecord->save()
+#3 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(49): FacturaController->actionCreate()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('factura/create')
+#14 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/factura/create.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/factura/create.php
+---
+2017/04/12 14:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/13 14:05:57 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp64\www\Alemana\protected\controllers\FacturaController.php (81)
+in C:\wamp64\www\Alemana\index.php (13)
+2017/04/13 14:05:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp64\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp64\www\Alemana\protected\controllers\FacturaController.php(81): CActiveRecord->save()
+#3 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(49): FacturaController->actionCreate()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('factura/create')
+#14 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/factura/create.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/factura/create.php
+---
+2017/04/17 06:42:57 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp64\www\Alemana\protected\controllers\FacturaController.php (81)
+in C:\wamp64\www\Alemana\index.php (13)
+2017/04/17 06:42:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '552' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `fac_factu` (`COD_FACT`, `COD_CLIE`, `COD_TIEN`, `FEC_PAGO`, `TOT_FACT_SIN_IGV`, `TOT_IGV`, `TOT_FACT`, `USU_DIGI`, `IND_ESTA`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp64\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp64\www\Alemana\protected\controllers\FacturaController.php(81): CActiveRecord->save()
+#3 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(49): FacturaController->actionCreate()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('factura/create')
+#14 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/factura/create.php
+HTTP_REFERER=http://ec2-54-201-27-84.us-west-2.compute.amazonaws.com/Alemana/factura/create.php
+---
+2017/04/18 14:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/18 18:47:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2017/04/19 02:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fACORDENCOMPR/create"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('fACORDENCOMPR/c...')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/fACORDENCOMPR/create.php
+---
+2018/04/20 11:26:34 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'FEC_MODI' at row 1. La sentencia SQL ejecutada fue: INSERT INTO `fac_orden_compr` (`COD_CLIE`, `IND_ESTA`, `FEC_MODI`, `NUM_ORDE`, `COD_TIEN`, `TIP_MONE`, `FEC_INGR`, `FEC_ENVI`, `TOT_MONT_ORDE`, `TOT_MONT_IGV`, `TOT_FACT`, `COD_ORDE`, `USU_DIGI`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12).
+in C:\wamp64\www\Alemana\protected\controllers\OcController.php (87)
+in C:\wamp64\www\Alemana\index.php (13)
+2018/04/20 11:26:34 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'FEC_MODI' at row 1. The SQL statement executed was: INSERT INTO `fac_orden_compr` (`COD_CLIE`, `IND_ESTA`, `FEC_MODI`, `NUM_ORDE`, `COD_TIEN`, `TIP_MONE`, `FEC_INGR`, `FEC_ENVI`, `TOT_MONT_ORDE`, `TOT_MONT_IGV`, `TOT_FACT`, `COD_ORDE`, `USU_DIGI`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12) in C:\wamp64\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp64\www\Alemana\protected\controllers\OcController.php(87): CActiveRecord->save()
+#3 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(49): OcController->actionCreate()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/create')
+#14 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/oc/create.php
+HTTP_REFERER=http://localhost/Alemana/oc/create.php
+---
+2018/04/20 11:32:32 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'FEC_MODI' at row 1. La sentencia SQL ejecutada fue: INSERT INTO `fac_orden_compr` (`COD_CLIE`, `IND_ESTA`, `FEC_MODI`, `NUM_ORDE`, `COD_TIEN`, `TIP_MONE`, `FEC_INGR`, `FEC_ENVI`, `TOT_MONT_ORDE`, `TOT_MONT_IGV`, `TOT_FACT`, `COD_ORDE`, `USU_DIGI`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12).
+in C:\wamp64\www\Alemana\protected\controllers\OcController.php (87)
+in C:\wamp64\www\Alemana\index.php (13)
+2018/04/20 11:32:32 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'FEC_MODI' at row 1. The SQL statement executed was: INSERT INTO `fac_orden_compr` (`COD_CLIE`, `IND_ESTA`, `FEC_MODI`, `NUM_ORDE`, `COD_TIEN`, `TIP_MONE`, `FEC_INGR`, `FEC_ENVI`, `TOT_MONT_ORDE`, `TOT_MONT_IGV`, `TOT_FACT`, `COD_ORDE`, `USU_DIGI`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12) in C:\wamp64\www\Alemana\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\wamp64\www\Alemana\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\wamp64\www\Alemana\protected\controllers\OcController.php(87): CActiveRecord->save()
+#3 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(49): OcController->actionCreate()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/create')
+#14 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Alemana/oc/create.php
+HTTP_REFERER=http://localhost/Alemana/oc/create.php
+---
+2018/04/20 11:39:57 [error] [php] Methods with the same name as their class will not be constructors in a future version of PHP; mPDF has a deprecated constructor (C:\wamp64\www\Alemana\protected\extensions\MPDF\mpdf.php:89)
+Stack trace:
+#0 C:\wamp64\www\Alemana\protected\views\oc\reporte.php(3): createComponent()
+#1 C:\wamp64\www\Alemana\framework\web\CBaseController.php(126): require()
+#2 C:\wamp64\www\Alemana\framework\web\CBaseController.php(95): OcController->renderInternal()
+#3 C:\wamp64\www\Alemana\framework\web\CController.php(869): OcController->renderFile()
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(782): OcController->renderPartial()
+#5 C:\wamp64\www\Alemana\protected\controllers\OcController.php(383): OcController->render()
+#6 unknown(0): OcController->actionReporte()
+#7 C:\wamp64\www\Alemana\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#8 C:\wamp64\www\Alemana\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 C:\wamp64\www\Alemana\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(133): OcController->runAction()
+#11 C:\wamp64\www\Alemana\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp64\www\Alemana\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\wamp64\www\Alemana\framework\web\filters\CInlineFilter.php(58): OcController->filterAccessControl()
+#14 C:\wamp64\www\Alemana\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\wamp64\www\Alemana\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp64\www\Alemana\framework\web\CController.php(265): OcController->runActionWithFilters()
+#17 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): OcController->run()
+#18 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\wamp64\www\Alemana\index.php(13): CWebApplication->run()
+REQUEST_URI=/Alemana/oc/reporte/1.php
+in C:\wamp64\www\Alemana\protected\views\oc\reporte.php (3)
+in C:\wamp64\www\Alemana\protected\controllers\OcController.php (383)
+in C:\wamp64\www\Alemana\index.php (13)
+2018/04/20 11:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "nuevo-oc" solicitada.' in C:\wamp64\www\Alemana\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CController.php(270): CController->missingAction('nuevo-oc')
+#1 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('nuevo-oc')
+#2 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/nuevo-oc')
+#3 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Alemana/oc/nuevo-oc.php
+HTTP_REFERER=http://localhost/Alemana/oc/create.php
+---
+2018/04/20 11:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "nuevo-oc.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('nuevo-oc.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/nuevo-oc.php
+HTTP_REFERER=http://localhost/Alemana/nuevo-oc.php
+---
+2018/04/20 11:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "create.php" solicitada.' in C:\wamp64\www\Alemana\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CController.php(270): CController->missingAction('create.php')
+#1 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('create.php')
+#2 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('oc/create.php')
+#3 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Alemana/oc/create.php
+HTTP_REFERER=http://localhost/Alemana/oc/create.php
+---
+2018/04/20 11:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "parametros"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('parametros')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/parametros
+HTTP_REFERER=http://localhost/Alemana/folio/index
+---
+2018/04/20 12:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "about" no fue encontrada.' in C:\wamp64\www\Alemana\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('about')
+#1 C:\wamp64\www\Alemana\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp64\www\Alemana\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp64\www\Alemana\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/view/...')
+#7 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Alemana/site/page/view/about
+HTTP_REFERER=http://localhost/Alemana/mAETIEND/index
+---
+2018/04/20 12:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "about" no fue encontrada.' in C:\wamp64\www\Alemana\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('about')
+#1 C:\wamp64\www\Alemana\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp64\www\Alemana\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp64\www\Alemana\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp64\www\Alemana\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/view/...')
+#7 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Alemana/site/page/view/about
+HTTP_REFERER=http://localhost/Alemana/mAETIEND/index
+---
+2018/04/20 12:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=2&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=t&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=c&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=t&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=T&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=T&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?nombre_producto=t&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?nombre_producto=1&type=produc_tiend&clie=002&tienda=002&row_num=1
+HTTP_REFERER=http://localhost/Alemana/nuevo-presupuesto
+---
+2018/04/20 12:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax2.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax2.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax2.php?type=id_guia&id=603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=1
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=603
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=1
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=603
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia_factu&id=602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia&id=603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax.php?type=id_guia&id=603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia&id=603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia&id=604_603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:52:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia&id=604_603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia&id=604_603_602
+HTTP_REFERER=http://localhost/Alemana/lista-guia
+---
+2018/04/20 12:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax1.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax1.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax1.php?type=id_factu&id=551_552_553
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
+2018/04/20 13:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax1.php"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax1.php')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax1.php?type=id_factu&id=551_552_553
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
+2018/04/20 13:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia_factu&id=1
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
+2018/04/20 13:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia_factu&id=553
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
+2018/04/20 13:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia_factu&id=552
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
+2018/04/20 13:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ajax"' in C:\wamp64\www\Alemana\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\Alemana\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 C:\wamp64\www\Alemana\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\Alemana\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Alemana/ajax?type=id_guia_factu&id=551
+HTTP_REFERER=http://localhost/Alemana/lista-factura
+---
