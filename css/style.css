@@ -1,0 +1,140 @@
+/* 
+    Document   : style
+    Created on : 19/02/2016, 10:16:00 AM
+    Author     : Henry Vega
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    padding-top: 60px;
+}
+
+.fieldset{
+    margin-bottom: 0em;
+}
+
+.ir{
+    margin-top: 1%;
+}
+
+.espacio{
+    margin-top: 1%;
+}
+
+.margin{
+    margin-top: 1%;
+}
+
+.control-label{
+    margin-top:  1em;
+}
+
+/*p{
+    color: red;
+
+}*/
+
+.letra{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.table{
+    background: #F5F5F5;
+
+}
+
+/*legend{
+    margin-top: 1em;
+}*/
+
+.mar{
+    margin: 1em  0em  0em  1em ;
+
+}
+.panel-footer{
+    overflow:hidden;
+    text-align:right;
+    border: 1;
+}
+
+.inv{
+    visibility: hidden;
+}
+
+h1{
+    font-family: arial, sans-serif;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.6pt;
+    word-spacing: 1.5pt;
+    line-height: 1.5;
+
+}
+
+/*-----------------------------------------------*/
+
+
+body{
+    background: transparent /*url(../img/login-bg-overlay.png)*/ repeat;
+    min-height:100%; 
+}
+h1 {
+    font: bold italic 355% georgia, times new roman, serif;
+    -webkit-transition-duration: .5s;
+    text-align: center;
+}
+
+input[type="text"]{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0 none;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(82,168,236,.6);
+    -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(82,168,236,.6);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(82,168,236,.6);
+}
+.btn-info {
+    background-color: #49AFCD;
+    background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-info:hover{
+    color:#fff;
+    background-color:#2f96b4;
+}
+
+.alt{
+    font:150% sans-serif;
+}
+
+.alt2{
+    font:90% sans-serif;
+    color: red;
+}
+
+th{
+    font:110% sans-serif;
+    color: #09f;
+}

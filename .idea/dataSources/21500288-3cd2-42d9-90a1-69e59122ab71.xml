@@ -1,0 +1,3338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SIS_PANA@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="blog">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="branusac">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="cash">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="cb_texturas">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="desempeno">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="dh_store">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="encuestas">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="eqatu">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="foro">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="hmail">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="metrics">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="mydb">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="presupuesto">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="sis_agenda">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="sis_alsina">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="sis_branusac">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="sis_demo">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="sis_inst">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="sis_pana">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="sis_prueba">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="slack">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="ventas_triathlon">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="yii2basic">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="yii2rbac">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <collation id="30" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="232" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="233" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="234" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="235" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="236" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="237" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="238" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="239" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="240" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="241" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="242" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="243" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="244" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="245" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="246" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="247" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="248" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="249" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="250" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="251" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="252" parent="23" name="bas_depar">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="253" parent="23" name="bas_distr">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="254" parent="23" name="bas_motiv_trasl">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="255" parent="23" name="bas_param">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="256" parent="23" name="bas_provi">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="257" parent="23" name="cro_opera_tiend">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="258" parent="23" name="fac_detal_factu">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="259" parent="23" name="fac_detal_guia_remis">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="260" parent="23" name="fac_detal_orden_compr">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="261" parent="23" name="fac_factu">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="262" parent="23" name="fac_guia_remis">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="263" parent="23" name="fac_orden_compr">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="264" parent="23" name="folio">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="265" parent="23" name="imp_folio_factu">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="266" parent="23" name="imp_folio_guia">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="267" parent="23" name="mae_clien">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="268" parent="23" name="mae_empre">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="269" parent="23" name="mae_linea_produ">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="270" parent="23" name="mae_produ">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="271" parent="23" name="mae_produ_tiend">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="272" parent="23" name="mae_tiend">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="273" parent="23" name="mae_trans">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="274" parent="23" name="mae_unida_trans">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="275" parent="23" name="ped_impre_masiv_factu">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="276" parent="23" name="seg_usuar">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="277" parent="23" name="tmp_repor_venta">
+      <Engine>InnoDB</Engine>
+    </table>
+    <routine id="278" parent="23" name="ACTUA_DETAL_FACTU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="279" parent="23" name="ACTUA_DETAL_PRESU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="280" parent="23" name="AUDITORIA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="281" parent="23" name="CREAR_DETAL_FACTU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="282" parent="23" name="CREAR_DETAL_PRESU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="283" parent="23" name="GET_VALOR_PRODU">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="284" parent="23" name="PED_ACTUA_DETAL_FACT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="285" parent="23" name="PED_ACTUA_DETAL_OC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="286" parent="23" name="PED_ANULA_FACTU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="287" parent="23" name="PED_ANULA_GUIA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="288" parent="23" name="PED_ANULA_OC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="289" parent="23" name="PED_CREAR_DETAL_FACT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="290" parent="23" name="PED_CREAR_DETAL_OC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="291" parent="23" name="PED_GENER_REPOR_VENTA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="292" parent="23" name="PED_MIGRA_FACTU_TO_GUIA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="293" parent="23" name="PED_MIGRA_GUIA_TO_FACTU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="294" parent="23" name="PED_MIGRA_OC_TO_GUIA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="295" parent="252" name="COD_DEPT">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="252" name="DES_LARG">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="252" name="DES_CORT">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="252" name="USU_DIGI">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="252" name="FEC_DIGI">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="252" name="USU_MODI">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="252" name="FEC_MODI">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="302" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_DEPT</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="303" parent="253" name="COD_DIST">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="253" name="COD_PROV">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="253" name="COD_DEPT">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="253" name="DES_LARG">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="253" name="DES_CORT">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="253" name="USU_DIGI">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="253" name="FEC_DIGI">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="253" name="USU_MODI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="253" name="FEC_MODI">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="312" parent="253" name="BAS_DISTR_FKIndex1">
+      <ColNames>COD_DEPT
+COD_PROV</ColNames>
+    </index>
+    <key id="313" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_DIST
+COD_PROV
+COD_DEPT</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="314" parent="253" name="BAS_DISTR_ibfk_1">
+      <ColNames>COD_DEPT
+COD_PROV</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>bas_provi</RefTableName>
+      <RefColNames>COD_DEPT
+COD_PROV</RefColNames>
+    </foreign-key>
+    <column id="315" parent="254" name="COD_TRAS">
+      <Position>1</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="254" name="DES_TRAS">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="254" name="USU_DIGI">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="318" parent="254" name="FEC_DIGI">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="254" name="USU_MODI">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="254" name="FEC_MODI">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="321" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_TRAS</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="322" parent="255" name="COD_PARA">
+      <Position>1</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="255" name="VAL_PARA">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="255" name="DES_PARA">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="255" name="USU_DIGI">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="255" name="FEC_DIGI">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="255" name="USU_MODI">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="255" name="FEC_MODI">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="329" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_PARA</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="330" parent="256" name="COD_DEPT">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="256" name="COD_PROV">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="256" name="DES_LARG">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="256" name="DES_CORT">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="256" name="USU_DIGI">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="256" name="FEC_DIGI">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="256" name="USU_MODI">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="256" name="FEC_MODI">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="338" parent="256" name="BAS_PROVI_FKIndex1">
+      <ColNames>COD_DEPT</ColNames>
+    </index>
+    <key id="339" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_PROV</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="340" parent="256" name="BAS_PROVI_ibfk_1">
+      <ColNames>COD_DEPT</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>bas_depar</RefTableName>
+      <RefColNames>COD_DEPT</RefColNames>
+    </foreign-key>
+    <column id="341" parent="257" name="COD_TIEN">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="342" parent="257" name="COD_CLIE">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="257" name="FEC_FACT">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="257" name="DIA_REPA">
+      <Position>4</Position>
+      <DataType>int(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="257" name="HOR_ATEN_DESD">
+      <Position>5</Position>
+      <DataType>varchar(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="257" name="HOR_ATEN_HAST">
+      <Position>6</Position>
+      <DataType>varchar(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="257" name="COD_ESTA_OPER">
+      <Position>7</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="257" name="USU_DIGI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="257" name="FEC_DIGI">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="257" name="USU_MODI">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="257" name="FEC_MODI">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="352" parent="257" name="CRO_OPERA_TIEND_FKIndex1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+    </index>
+    <foreign-key id="353" parent="257" name="CRO_OPERA_TIEND_ibfk_1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_tiend</RefTableName>
+      <RefColNames>COD_CLIE
+COD_TIEN</RefColNames>
+    </foreign-key>
+    <column id="354" parent="258" name="COD_FACT">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="258" name="COD_PROD">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="258" name="VAL_PROD">
+      <Position>3</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="357" parent="258" name="IMP_PROD">
+      <Position>4</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="358" parent="258" name="IGV_PROD">
+      <Position>5</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="258" name="IMP_TOTA_PROD">
+      <Position>6</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="360" parent="258" name="USU_DIGI">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="361" parent="258" name="FEC_DIGI">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="362" parent="258" name="USU_MODI">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="363" parent="258" name="FEC_MODI">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="364" parent="258" name="FACT_DET">
+      <Position>11</Position>
+      <DataType>int(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="258" name="COD_TIEN">
+      <Position>12</Position>
+      <DataType>varchar(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="258" name="COD_CLIE">
+      <Position>13</Position>
+      <DataType>varchar(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="367" parent="258" name="UNI_SOLI">
+      <Position>14</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="368" parent="258" name="FAC_DETAL_FACTU_FKIndex1">
+      <ColNames>COD_FACT</ColNames>
+    </index>
+    <index id="369" parent="258" name="FAC_DETAL_FACTU_FKIndex2">
+      <ColNames>COD_PROD</ColNames>
+    </index>
+    <foreign-key id="370" parent="258" name="FAC_DETAL_FACTU_ibfk_1">
+      <ColNames>COD_FACT</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>fac_factu</RefTableName>
+      <RefColNames>COD_FACT</RefColNames>
+    </foreign-key>
+    <foreign-key id="371" parent="258" name="FAC_DETAL_FACTU_ibfk_2">
+      <ColNames>COD_PROD</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_produ</RefTableName>
+      <RefColNames>COD_PROD</RefColNames>
+    </foreign-key>
+    <column id="372" parent="259" name="COD_GUIA">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="259" name="COD_PROD">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="259" name="PES_PROD">
+      <Position>3</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="259" name="UNI_SOLI">
+      <Position>4</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="259" name="VAL_PROD">
+      <Position>5</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="377" parent="259" name="IMP_PROD">
+      <Position>6</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="378" parent="259" name="IGV_PROD">
+      <Position>7</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="259" name="IMP_TOTA_PROD">
+      <Position>8</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="259" name="USU_DIGI">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="259" name="FEC_DIGI">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="259" name="USU_MODI">
+      <Position>11</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="259" name="FEC_MODI">
+      <Position>12</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="259" name="GUIA_DET">
+      <Position>13</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="385" parent="259" name="FAC_DETAL_GUIA_REMIS_FKIndex1">
+      <ColNames>COD_GUIA</ColNames>
+    </index>
+    <index id="386" parent="259" name="FAC_DETAL_GUIA_REMIS_FKIndex2">
+      <ColNames>COD_PROD</ColNames>
+    </index>
+    <key id="387" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>GUIA_DET</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="388" parent="259" name="FAC_DETAL_GUIA_REMIS_ibfk_1">
+      <ColNames>COD_GUIA</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>fac_guia_remis</RefTableName>
+      <RefColNames>COD_GUIA</RefColNames>
+    </foreign-key>
+    <foreign-key id="389" parent="259" name="FAC_DETAL_GUIA_REMIS_ibfk_2">
+      <ColNames>COD_PROD</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_produ</RefTableName>
+      <RefColNames>COD_PROD</RefColNames>
+    </foreign-key>
+    <column id="390" parent="260" name="COD_CLIE">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="260" name="COD_TIEN">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="260" name="COD_ORDE">
+      <Position>3</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="260" name="COD_PROD">
+      <Position>4</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="394" parent="260" name="NRO_UNID">
+      <Position>5</Position>
+      <DataType>int(12)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="260" name="VAL_PREC">
+      <Position>6</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="260" name="VAL_IGV">
+      <Position>7</Position>
+      <DataType>decimal(5,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="260" name="VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="260" name="VAL_MONT_IGV">
+      <Position>9</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="260" name="USU_DIGI">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="260" name="FEC_DIGI">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="260" name="USU_MODI">
+      <Position>12</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="402" parent="260" name="FEC_MODI">
+      <Position>13</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="403" parent="260" name="VAL_TOTAL">
+      <Position>14</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="260" name="ORD_COR">
+      <Position>15</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="405" parent="260" name="FAC_DETAL_ORDEN_COMPR_FKIndex1">
+      <ColNames>COD_CLIE
+COD_TIEN
+COD_ORDE</ColNames>
+    </index>
+    <index id="406" parent="260" name="FAC_DETAL_ORDEN_COMPR_FKIndex2">
+      <ColNames>COD_PROD</ColNames>
+    </index>
+    <key id="407" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ORD_COR</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="408" parent="260" name="FAC_DETAL_ORDEN_COMPR_ibfk_2">
+      <ColNames>COD_PROD</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_produ</RefTableName>
+      <RefColNames>COD_PROD</RefColNames>
+    </foreign-key>
+    <column id="409" parent="261" name="COD_FACT">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="410" parent="261" name="COD_CLIE">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="261" name="COD_GUIA">
+      <Position>3</Position>
+      <DataType>varchar(12)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="261" name="FEC_FACT">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="413" parent="261" name="FEC_PAGO">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="261" name="IND_ESTA">
+      <Position>6</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="261" name="VAL_IGV">
+      <Position>7</Position>
+      <DataType>decimal(5,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="261" name="TOT_FACT_SIN_IGV">
+      <Position>8</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="261" name="TOT_IGV">
+      <Position>9</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="261" name="TOT_FACT">
+      <Position>10</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="261" name="USU_DIGI">
+      <Position>11</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="420" parent="261" name="FEC_DIGI">
+      <Position>12</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="421" parent="261" name="USU_MODI">
+      <Position>13</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="422" parent="261" name="FEC_MODI">
+      <Position>14</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="261" name="COD_TIEN">
+      <Position>15</Position>
+      <DataType>varchar(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="261" name="TOT_UNID_FACT">
+      <Position>16</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="425" parent="261" name="FAC_FACTU_FKIndex2">
+      <ColNames>COD_CLIE</ColNames>
+    </index>
+    <index id="426" parent="261" name="FAC_FACTU_FKIndex1">
+      <ColNames>COD_GUIA</ColNames>
+    </index>
+    <key id="427" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_FACT</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="428" parent="261" name="FAC_FACTU_ibfk_2">
+      <ColNames>COD_CLIE</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_clien</RefTableName>
+      <RefColNames>COD_CLIE</RefColNames>
+    </foreign-key>
+    <foreign-key id="429" parent="261" name="FAC_FACTU_ibfk_1">
+      <ColNames>COD_GUIA</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>fac_guia_remis</RefTableName>
+      <RefColNames>COD_GUIA</RefColNames>
+    </foreign-key>
+    <column id="430" parent="262" name="COD_GUIA">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="431" parent="262" name="COD_ORDE">
+      <Position>2</Position>
+      <DataType>int(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="432" parent="262" name="COD_TIEN">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="433" parent="262" name="COD_CLIE">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="262" name="FEC_EMIS">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="262" name="DIR_PART">
+      <Position>6</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="262" name="FEC_TRAS">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="262" name="COS_FLET">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="262" name="COD_EMPR_TRAN">
+      <Position>9</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="439" parent="262" name="COD_UNID_TRAN">
+      <Position>10</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="262" name="COD_MOTI_TRAS">
+      <Position>11</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="441" parent="262" name="IND_ESTA">
+      <Position>12</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="442" parent="262" name="USU_DIGI">
+      <Position>13</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="443" parent="262" name="FEC_DIGI">
+      <Position>14</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="444" parent="262" name="USU_MODI">
+      <Position>15</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="445" parent="262" name="FEC_MODI">
+      <Position>16</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="446" parent="262" name="FAC_GUIA_REMIS_FKIndex1">
+      <ColNames>COD_CLIE
+COD_TIEN
+COD_ORDE</ColNames>
+    </index>
+    <key id="447" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_GUIA</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="448" parent="263" name="COD_CLIE">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="263" name="COD_TIEN">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="263" name="COD_ORDE">
+      <Position>3</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="263" name="NUM_ORDE">
+      <Position>4</Position>
+      <DataType>varchar(12)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="263" name="IND_TIPO">
+      <Position>5</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="263" name="TIP_MONE">
+      <Position>6</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="263" name="TOT_UNID_SOLI">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="455" parent="263" name="TOT_MONT_ORDE">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="263" name="TOT_MONT_IGV">
+      <Position>9</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="263" name="TOT_FACT">
+      <Position>10</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="263" name="FEC_PAGO">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="263" name="IND_ESTA">
+      <Position>12</Position>
+      <Comment>Estado Creado</Comment>
+      <DataType>varchar(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="263" name="FEC_INGR">
+      <Position>13</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="263" name="FEC_ENVI">
+      <Position>14</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="462" parent="263" name="FEC_ANUL">
+      <Position>15</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="263" name="USU_DIGI">
+      <Position>16</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="263" name="FEC_DIGI">
+      <Position>17</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="263" name="USU_MODI">
+      <Position>18</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="263" name="FEC_MODI">
+      <Position>19</Position>
+      <Comment>Fecha Actual</Comment>
+      <DataType>timestamp|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="467" parent="263" name="FAC_ORDEN_COMPR_FKIndex1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+    </index>
+    <key id="468" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_ORDE</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="469" parent="263" name="FAC_ORDEN_COMPR_ibfk_1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_tiend</RefTableName>
+      <RefColNames>COD_CLIE
+COD_TIEN</RefColNames>
+    </foreign-key>
+    <column id="470" parent="264" name="VAL_INI">
+      <Position>1</Position>
+      <DataType>int(99)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="471" parent="264" name="VAL_FIN">
+      <Position>2</Position>
+      <DataType>int(99)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="264" name="VAL_ACTU">
+      <Position>3</Position>
+      <DataType>int(99)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="264" name="VAL_LLAVE">
+      <Position>4</Position>
+      <DataType>int(255) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="264" name="DESCRIPCION">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="475" parent="264" name="FECHA">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="476" parent="264" name="VALOR">
+      <Position>7</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="477" parent="264" name="USUARIO">
+      <Position>8</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="478" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>VAL_LLAVE</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="479" parent="265" name="VAL_INIC">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="265" name="VAL_FIN">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="265" name="VAL_ACTUA">
+      <Position>3</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="266" name="VAL_INIC">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="266" name="VAL_FIN">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="484" parent="266" name="VAL_ACTUA">
+      <Position>3</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="485" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>VAL_INIC
+VAL_FIN</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="486" parent="267" name="COD_CLIE">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="267" name="DES_CLIE">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="267" name="COD_ESTA">
+      <Position>3</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="489" parent="267" name="DIR_FISC">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="490" parent="267" name="NRO_RUC">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="491" parent="267" name="COD_DEPT">
+      <Position>6</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="492" parent="267" name="COD_PROV">
+      <Position>7</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="267" name="COD_DIST">
+      <Position>8</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="494" parent="267" name="NRO_TEL1">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="267" name="NRO_TEL2">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="267" name="NRO_TEL3">
+      <Position>11</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="267" name="DIR_WEB">
+      <Position>12</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="267" name="DIR_EMA1">
+      <Position>13</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="499" parent="267" name="DIR_EMA2">
+      <Position>14</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="500" parent="267" name="DIR_EMA3">
+      <Position>15</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="267" name="USU_DIGI">
+      <Position>16</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="267" name="FEC_DIGI">
+      <Position>17</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="267" name="USU_MODI">
+      <Position>18</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="504" parent="267" name="FEC_MODI">
+      <Position>19</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="505" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_CLIE</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="506" parent="268" name="COD_EMPR">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="507" parent="268" name="DES_EMPR">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="508" parent="268" name="DIR_FISC">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="268" name="NRO_RUC">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="268" name="COD_DEPT">
+      <Position>5</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="268" name="COD_PROV">
+      <Position>6</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="268" name="COD_DIST">
+      <Position>7</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="513" parent="268" name="NRO_TEL1">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="514" parent="268" name="NRO_TEL2">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="515" parent="268" name="NRO_TEL3">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="516" parent="268" name="DIR_WEB">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="517" parent="268" name="DIR_EMA1">
+      <Position>12</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="518" parent="268" name="DIR_EMA2">
+      <Position>13</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="268" name="DIR_EMA3">
+      <Position>14</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="268" name="COD_ESTA">
+      <Position>15</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="521" parent="268" name="USU_DIGI">
+      <Position>16</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="522" parent="268" name="FEC_DIGI">
+      <Position>17</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="523" parent="268" name="USU_MODI">
+      <Position>18</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="524" parent="268" name="FEC_MODI">
+      <Position>19</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="525" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_EMPR</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="526" parent="269" name="COD_LINE">
+      <Position>1</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="269" name="DES_LARG">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="269" name="DES_CORT">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="269" name="USU_DIGI">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="530" parent="269" name="FEC_DIGI">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="531" parent="269" name="USU_MODI">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="532" parent="269" name="FEC_MODI">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="533" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_LINE</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="534" parent="270" name="COD_PROD">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="270" name="COD_LINE">
+      <Position>2</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="270" name="DES_LARG">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="537" parent="270" name="DES_CORT">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="538" parent="270" name="COD_ESTA">
+      <Position>5</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="539" parent="270" name="COD_MEDI">
+      <Position>6</Position>
+      <DataType>varchar(4)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="540" parent="270" name="VAL_PESO">
+      <Position>7</Position>
+      <DataType>int(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="541" parent="270" name="VAL_PROD">
+      <Position>8</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="542" parent="270" name="VAL_CONV">
+      <Position>9</Position>
+      <DataType>int(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="543" parent="270" name="VAL_PORC">
+      <Position>10</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="544" parent="270" name="VAL_COST">
+      <Position>11</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="270" name="VAL_REPO">
+      <Position>12</Position>
+      <DataType>int(12)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="270" name="COD_LOTE">
+      <Position>13</Position>
+      <DataType>int(6)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="270" name="USU_DIGI">
+      <Position>14</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="270" name="FEC_DIGI">
+      <Position>15</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="549" parent="270" name="USU_MODI">
+      <Position>16</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="270" name="FEC_MODI">
+      <Position>17</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="270" name="NRO_UNID">
+      <Position>18</Position>
+      <DataType>int(20) unsigned|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="552" parent="270" name="MAE_PRODU_FKIndex1">
+      <ColNames>COD_LINE</ColNames>
+    </index>
+    <key id="553" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_PROD</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="554" parent="270" name="MAE_PRODU_ibfk_1">
+      <ColNames>COD_LINE</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_linea_produ</RefTableName>
+      <RefColNames>COD_LINE</RefColNames>
+    </foreign-key>
+    <column id="555" parent="271" name="COD_TIEN">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="556" parent="271" name="COD_CLIE">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="557" parent="271" name="COD_PROD">
+      <Position>3</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="558" parent="271" name="IND_TIPO">
+      <Position>4</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="271" name="VAL_PROD">
+      <Position>5</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="271" name="VAL_DESC">
+      <Position>6</Position>
+      <DataType>decimal(5,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="271" name="VAL_PROD_DESC">
+      <Position>7</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="271" name="USU_DIGI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="271" name="FEC_DIGI">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="271" name="USU_MODI">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="565" parent="271" name="FEC_MODI">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="566" parent="271" name="MAE_PRODU_TIEND_FKIndex1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+    </index>
+    <index id="567" parent="271" name="MAE_PRODU_TIEND_FKIndex2">
+      <ColNames>COD_PROD</ColNames>
+    </index>
+    <foreign-key id="568" parent="271" name="MAE_PRODU_TIEND_ibfk_1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_tiend</RefTableName>
+      <RefColNames>COD_CLIE
+COD_TIEN</RefColNames>
+    </foreign-key>
+    <foreign-key id="569" parent="271" name="MAE_PRODU_TIEND_ibfk_2">
+      <ColNames>COD_PROD</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_produ</RefTableName>
+      <RefColNames>COD_PROD</RefColNames>
+    </foreign-key>
+    <column id="570" parent="272" name="COD_TIEN">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="272" name="DES_TIEN">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="272" name="COD_CLIE">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="272" name="COD_ESTA">
+      <Position>4</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="574" parent="272" name="DIR_TIEN">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="575" parent="272" name="USU_DIGI">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="272" name="FEC_DIGI">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="577" parent="272" name="USU_MODI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="578" parent="272" name="FEC_MODI">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="579" parent="272" name="MAE_TIEND_FKIndex1">
+      <ColNames>COD_CLIE</ColNames>
+    </index>
+    <key id="580" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_TIEN</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="581" parent="272" name="MAE_TIEND_ibfk_1">
+      <ColNames>COD_CLIE</ColNames>
+      <RefSchemaName>sis_pana</RefSchemaName>
+      <RefTableName>mae_clien</RefTableName>
+      <RefColNames>COD_CLIE</RefColNames>
+    </foreign-key>
+    <column id="582" parent="273" name="COD_TRAN">
+      <Position>1</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="583" parent="273" name="DES_TRAN">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="584" parent="273" name="DIR_FISC">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="585" parent="273" name="NRO_RUC">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="273" name="COD_DEPT">
+      <Position>5</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="587" parent="273" name="COD_PROV">
+      <Position>6</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="588" parent="273" name="COD_DIST">
+      <Position>7</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="273" name="NRO_TEL1">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="273" name="NRO_TEL2">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="273" name="NRO_TEL3">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="273" name="DIR_WEB">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="593" parent="273" name="DIR_EMAIL1">
+      <Position>12</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="594" parent="273" name="DIR_EMAIL2">
+      <Position>13</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="595" parent="273" name="DIR_EMAIL3">
+      <Position>14</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="596" parent="273" name="COD_ESTA">
+      <Position>15</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="273" name="USU_DIGI">
+      <Position>16</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="598" parent="273" name="FEC_DIGI">
+      <Position>17</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="599" parent="273" name="USU_MODI">
+      <Position>18</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="600" parent="273" name="FEC_MODI">
+      <Position>19</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="601" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_TRAN</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="602" parent="274" name="COD_EMPR">
+      <Position>1</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="603" parent="274" name="COD_UNID_TRAN">
+      <Position>2</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="604" parent="274" name="NOM_COND">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="274" name="MAR_VEHI">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="274" name="NUM_PLAC">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="274" name="NUM_CONS_INSC">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="274" name="NUM_LICE_COND">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="274" name="USU_DIGI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="274" name="FEC_DIGI">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="274" name="USU_MODI">
+      <Position>10</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="274" name="FEC_MODI">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="275" name="COD_FACTU">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="614" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_FACTU</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="615" parent="276" name="COD_USUA">
+      <Position>1</Position>
+      <DataType>int(6) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="616" parent="276" name="COD_LOCA">
+      <Position>2</Position>
+      <DataType>varchar(2)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="276" name="NOM_USUA">
+      <Position>3</Position>
+      <DataType>varchar(60)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="276" name="APE_USUA">
+      <Position>4</Position>
+      <DataType>varchar(60)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="276" name="USE_USUA">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="620" parent="276" name="PAS_USUA">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="621" parent="276" name="EMA_USUA">
+      <Position>7</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="622" parent="276" name="EST_USUA">
+      <Position>8</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="623" parent="276" name="FEC_ULTI_INGR">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="276" name="FEC_ULTI_MODI_PASS">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="276" name="VAL_INTE_FALL_PASS">
+      <Position>11</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="626" parent="276" name="USU_DIGI">
+      <Position>12</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="627" parent="276" name="FEC_DIGI">
+      <Position>13</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="628" parent="276" name="USU_MODI">
+      <Position>14</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="276" name="FEC_MODI">
+      <Position>15</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="276" name="VAL_IP">
+      <Position>16</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="276" name="IND_ACCE">
+      <Position>17</Position>
+      <DataType>varchar(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="632" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COD_USUA</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="633" parent="277" name="COD_CLIE">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="634" parent="277" name="DES_CLIE">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="277" name="DIR_TIEN">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="636" parent="277" name="COD_TIEN">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="277" name="COD_PROD">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="277" name="DES_LARG">
+      <Position>6</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="639" parent="277" name="IMP_TOTA">
+      <Position>7</Position>
+      <DataType>decimal(12,2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="640" parent="277" name="USU_DIGI">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="641" parent="277" name="UNI_SOLI">
+      <Position>9</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="642" parent="277" name="Index_1">
+      <ColNames>COD_CLIE
+COD_TIEN</ColNames>
+    </index>
+    <index id="643" parent="277" name="Index_2">
+      <ColNames>USU_DIGI</ColNames>
+    </index>
+    <argument id="644" parent="278" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="645" parent="278" name="x_cod_factu">
+      <Position>2</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="646" parent="278" name="x_cod_factu_det">
+      <Position>3</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="647" parent="278" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="648" parent="278" name="x_NRO_UNID">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="649" parent="278" name="x_DES_LARG">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+    </argument>
+    <argument id="650" parent="278" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="651" parent="278" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="652" parent="279" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="653" parent="279" name="x_cod_presu">
+      <Position>2</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="654" parent="279" name="x_cod_presu_det">
+      <Position>3</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="655" parent="279" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="656" parent="279" name="x_NRO_UNID">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="657" parent="279" name="x_DES_LARG">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+    </argument>
+    <argument id="658" parent="279" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="659" parent="279" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="660" parent="280" name="X_USUARIO">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+    </argument>
+    <argument id="661" parent="280" name="X_VALOR">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="662" parent="281" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="663" parent="281" name="x_cod_factu">
+      <Position>2</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="664" parent="281" name="x_cod_factu_det">
+      <Position>3</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="665" parent="281" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="666" parent="281" name="x_NRO_UNID">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="667" parent="281" name="x_DES_LARG">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+    </argument>
+    <argument id="668" parent="281" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="669" parent="281" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="670" parent="282" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="671" parent="282" name="x_cod_presu">
+      <Position>2</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="672" parent="282" name="x_cod_presu_det">
+      <Position>3</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="673" parent="282" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>int(99)|0</DataType>
+    </argument>
+    <argument id="674" parent="282" name="x_NRO_UNID">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="675" parent="282" name="x_DES_LARG">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+    </argument>
+    <argument id="676" parent="282" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="677" parent="282" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="678" parent="283">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>decimal(12,2)|0</DataType>
+    </argument>
+    <argument id="679" parent="283" name="x_COD_PRODU">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="680" parent="283" name="x_COD_TIEN">
+      <Position>2</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="681" parent="283" name="x_COD_CLIE">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="682" parent="284" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="683" parent="284" name="x_cod_fact">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="684" parent="284" name="x_cod_tiend">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="685" parent="284" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="686" parent="284" name="x_COD_PROD">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="687" parent="284" name="x_NRO_UNID">
+      <Position>6</Position>
+      <DataType>int(12)|0</DataType>
+    </argument>
+    <argument id="688" parent="284" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="689" parent="284" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="690" parent="284" name="x_DES_LARG">
+      <Position>9</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="691" parent="284" name="x_VAL_USU">
+      <Position>10</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="692" parent="284" name="x_VAL_PCIP">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="693" parent="285" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="694" parent="285" name="x_cod_orden">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="695" parent="285" name="x_cod_tiend">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="696" parent="285" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="697" parent="285" name="x_COD_PROD">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="698" parent="285" name="x_NRO_UNID">
+      <Position>6</Position>
+      <DataType>int(12)|0</DataType>
+    </argument>
+    <argument id="699" parent="285" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="700" parent="285" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="701" parent="285" name="x_DES_LARG">
+      <Position>9</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="702" parent="285" name="x_VAL_USU">
+      <Position>10</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="703" parent="285" name="x_VAL_PCIP">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="704" parent="286" name="X_COD_FACTU">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="705" parent="286" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="706" parent="287" name="X_COD_GUIA">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="707" parent="287" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="708" parent="288" name="X_COD_ORDEN">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="709" parent="288" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="710" parent="289" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="711" parent="289" name="x_cod_fact">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="712" parent="289" name="x_cod_tiend">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="713" parent="289" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="714" parent="289" name="x_COD_PROD">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="715" parent="289" name="x_NRO_UNID">
+      <Position>6</Position>
+      <DataType>int(12)|0</DataType>
+    </argument>
+    <argument id="716" parent="289" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="717" parent="289" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="718" parent="289" name="x_DES_LARG">
+      <Position>9</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="719" parent="289" name="x_VAL_USU">
+      <Position>10</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="720" parent="289" name="x_VAL_PCIP">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="721" parent="290" name="fila">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="722" parent="290" name="x_cod_orden">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="723" parent="290" name="x_cod_tiend">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="724" parent="290" name="x_cod_clien">
+      <Position>4</Position>
+      <DataType>varchar(6)|0</DataType>
+    </argument>
+    <argument id="725" parent="290" name="x_COD_PROD">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="726" parent="290" name="x_NRO_UNID">
+      <Position>6</Position>
+      <DataType>int(12)|0</DataType>
+    </argument>
+    <argument id="727" parent="290" name="x_VAL_PREC">
+      <Position>7</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="728" parent="290" name="x_VAL_MONT_UNID">
+      <Position>8</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </argument>
+    <argument id="729" parent="290" name="x_DES_LARG">
+      <Position>9</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="730" parent="290" name="x_VAL_USU">
+      <Position>10</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="731" parent="290" name="x_VAL_PCIP">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+    </argument>
+    <argument id="732" parent="291" name="X_FEC_INI">
+      <Position>1</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="733" parent="291" name="X_FEC_FIN">
+      <Position>2</Position>
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="734" parent="291" name="X_COD_CLIE">
+      <Position>3</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="735" parent="291" name="X_COD_TIEN">
+      <Position>4</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="736" parent="291" name="X_ESTADO">
+      <Position>5</Position>
+      <DataType>varchar(1)|0</DataType>
+    </argument>
+    <argument id="737" parent="291" name="X_AGRUPA">
+      <Position>6</Position>
+      <DataType>varchar(1)|0</DataType>
+    </argument>
+    <argument id="738" parent="291" name="x_usu">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+    </argument>
+    <argument id="739" parent="292" name="X_COD_FACTURA">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="740" parent="292" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="741" parent="293" name="X_COD_GUIA">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="742" parent="293" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="743" parent="294" name="X_COD_ORDE">
+      <Position>1</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="744" parent="294" name="x_usu">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+    </argument>
+    <argument id="745" parent="294" name="ind_detalle_oc">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>int(11)|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

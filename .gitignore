@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Yii template
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+
+protected/runtime/session-1.1.17.db
+.idea/.name
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/encodings.xml
+.idea/panaderia.iml
+.idea/workspace.xml
+protected/commands/
+protected/data/
+protected/messages/
+protected/migrations/
+protected/tests/fixtures/
+protected/tests/report/
+protected/tests/unit/
+protected/vendor/
+themes/classic/
+assets/
+themes/

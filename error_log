@@ -1,0 +1,3 @@
+[19-Aug-2016 00:05:15 America/Chicago] PHP Fatal error:  Call to a member function search() on a non-object in /home1/mgazzo/public_html/Alemana/protected/views/fACGUIAREMIS/index.php on line 55
+[19-Aug-2016 00:12:38 America/Chicago] PHP Fatal error:  Call to undefined function numtoletras() in /home1/mgazzo/public_html/Alemana/protected/views/Reporte/_ReporteGuiaContinuo.php on line 93
+[20-Aug-2016 12:58:11 America/Chicago] PHP Fatal error:  Call to a member function search() on a non-object in /home1/mgazzo/public_html/Alemana/protected/views/fACGUIAREMIS/index.php on line 55

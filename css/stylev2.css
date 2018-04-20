@@ -1,0 +1,82 @@
+/* 
+    Document   : style
+    Created on : 19/02/2016, 10:16:00 AM
+    Author     : Henry Vega
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    padding-top: 60px;
+}
+
+.fieldset{
+    margin-bottom: 0em;
+}
+
+.ir{
+    margin: 1em;
+}
+
+.control-label{
+    margin-top:  1em;
+}
+
+/*p{
+    color: red;
+
+}*/
+
+.letra{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.table{
+    background: #F5F5F5;
+
+}
+
+/*legend{
+    margin-top: 1em;
+}*/
+
+.mar{
+    margin: 1em  0em  0em  1em ;
+
+}
+.panel-footer{
+    overflow:hidden;
+    text-align:right;
+    border: 1;
+}
+
+.inv{
+    visibility: hidden;
+}
+
+h1{
+    font-family: arial, sans-serif; 
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.6pt;
+    word-spacing: 1.5pt;
+    line-height: 1.5;
+
+}
+
+/*-----------------------------------------------*/
+
+h1 {
+    font: bold italic 355% georgia, times new roman, serif;
+    -webkit-transition-duration: .5s;
+    text-align: center;
+}
